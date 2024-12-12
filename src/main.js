@@ -1,1 +1,1 @@
-@import "./js/scrypt";
+import "./js/script";

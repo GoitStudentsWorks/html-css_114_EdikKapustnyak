@@ -1,4 +1,4 @@
-(() => {
+() => {
     const refs = {
       // Додати атрибут data-modal-open на кнопку відкриття
       openModalBtn: document.querySelector("[data-menu-open]"),
@@ -10,3 +10,4 @@
   
     refs.openModalBtn.addEventListener("click", toggleModal);
     refs.closeModalBtn.addEventListener("click", toggleModal);
+ }
