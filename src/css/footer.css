@@ -2,41 +2,96 @@
   .footer {
     background-color: #7a3145;
     padding: 40px 0;
+    width: 100%;
   }
   .container {
   }
   .footer-container {
   }
   .footer-logo-wrapper {
+    margin-bottom: 40px;
   }
   .footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 168px;
+    margin-bottom: 14px;
+  }
+  .footer-logo-icon {
+    fill: #fbfbfb;
+    width: 16px;
+    height: 16px;
     background-color: #fff;
   }
-  .footer-logo-svg {
+  .footer-logo-icon-text {
+    fill: #fbfbfb;
+    width: 148px;
+    height: 12px;
+    background-color: #fff;
   }
   .footer-desc {
+    max-width: 335px;
+    color: #fbfbfb;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.43;
   }
   .footer-link-wrapper {
+    margin-bottom: 80px;
   }
+
   .footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-bottom: 40px;
   }
   .footer-item {
   }
   .footer-link {
+    color: #fbfbfb;
+
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
   }
-  .footer-address-wrapper {
-  }
+
   .footer-address {
   }
   .footer-contacts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
   }
   .footer-contact-item {
+    max-width: 179px;
   }
+
   .footer-contact-link {
+    color: #fbfbfb;
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.43;
   }
   .footer-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
   }
   .footer-text {
+    color: #d4bfc4;
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.43;
   }
 }
 
@@ -50,35 +105,89 @@
   .footer-container {
   }
   .footer-logo-wrapper {
+    margin-bottom: 40px;
   }
   .footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 168px;
+    margin-bottom: 14px;
+  }
+  .footer-logo-icon {
+    fill: #fbfbfb;
+    width: 16px;
+    height: 16px;
     background-color: #fff;
   }
-  .footer-logo-svg {
+  .footer-logo-icon-text {
+    fill: #fbfbfb;
+    width: 148px;
+    height: 12px;
+    background-color: #fff;
   }
   .footer-desc {
+    width: 335px;
+    color: #fbfbfb;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.43;
   }
   .footer-link-wrapper {
+    margin-bottom: 80px;
   }
+
   .footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-bottom: 40px;
   }
   .footer-item {
   }
   .footer-link {
+    color: #fbfbfb;
+
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
   }
-  .footer-address-wrapper {
-  }
+
   .footer-address {
   }
   .footer-contacts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
   }
   .footer-contact-item {
+    width: 179px;
   }
+
   .footer-contact-link {
+    color: #fbfbfb;
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.43;
   }
   .footer-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
   }
   .footer-text {
+    color: #d4bfc4;
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.43;
   }
 }
 
@@ -93,20 +202,22 @@
   }
   .footer-logo {
   }
-  .footer-logo-svg {
+  .footer-logo-icon {
+  }
+  .footer-logo-icon-text {
   }
   .footer-desc {
   }
   .footer-link-wrapper {
   }
+
   .footer-list {
   }
   .footer-item {
   }
   .footer-link {
   }
-  .footer-address-wrapper {
-  }
+
   .footer-address {
   }
   .footer-contacts-list {
@@ -132,20 +243,22 @@
   }
   .footer-logo {
   }
-  .footer-logo-svg {
+  .footer-logo-icon {
+  }
+  .footer-logo-icon-text {
   }
   .footer-desc {
   }
   .footer-link-wrapper {
   }
+
   .footer-list {
   }
   .footer-item {
   }
   .footer-link {
   }
-  .footer-address-wrapper {
-  }
+
   .footer-address {
   }
   .footer-contacts-list {
