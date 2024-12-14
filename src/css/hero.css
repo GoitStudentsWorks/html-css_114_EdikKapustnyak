@@ -1,3 +1,118 @@
-.hero { 
-    background-color: blueviolet;
+.hero-section {position: relative;
+  background: #576f35;
+  background-image: url(../img/hero_img/hero-image_mob@1x.jpg);
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+  background-size: contain;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-section {
+    background-image: url(../img/hero_img/hero-image_mob@2x.jpg);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-section {
+    background-image: url(../img/hero_img/hero-image_tab@1x.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-section {
+      background-image: url(../img/hero_img/hero-image_tab@2x.jpg);
+    }
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .hero-section {
+    background-image: url(../img/hero_img/hero-image_desk@1x.jpg);
+    background-position: 100% 0%;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-section {
+      background-image: url(../img/hero_img/hero-image_desk@2x.jpg);
+      box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    }
+  }
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 100px;
+  padding-bottom: 412px;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-container {
+    padding-top: 120px;
+    padding-bottom: 588px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .hero-container {
+    padding-top: 232px;
+    padding-bottom: 52px;
+  }
+}
+
+.hero-title {
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 100%;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  max-width: 335px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-title {
+    font-size: 76px;
+    max-width: 704px;
+    margin-bottom: 24px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .hero-title {
+    font-size: 76px;
+    max-width: 502px;
+    margin-bottom: 128px;
+  }
+}
+
+.hero-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 143%;
+  color: #fbfbfb;
+  margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-text {
+    font-size: 16px;
+    line-height: 125%;
+    max-width: 603px;
+    margin-bottom: 52px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .hero-text {
+    max-width: 450px;
+  }
 }
