@@ -4,3 +4,132 @@
     width: 100%;
     background-color: transparent;
 }
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 216px;
+}
+
+.logo-icon,
+.logo-icon-text {
+    fill: #fbfbfb;
+}
+
+.header-wrapper {
+    display: none;
+}
+
+.burger-button {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+}
+
+.burger-icon {
+    fill: #fbfbfb;
+    display: block;
+}
+
+@media screen and (max-width: 767px) {
+    .main-logo {
+        width: 168px;
+    }
+
+    .logo-icon {
+        width: 16px;
+        height: 16px;
+    }
+
+    .logo-icon-text {
+        width: 148px;
+        height: 12px;
+    }
+
+    .burger-icon {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .page-header {
+        top: 32px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .header-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 498px;
+    }
+
+    .nav-list {
+        display: flex;
+        gap: 8px;
+    }
+
+    .nav-link {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.25;
+        text-align: center;
+        color: #fbfbfb;
+        border: 1px solid #fbfbfb;
+        border-radius: 12px;
+        padding: 12px;
+        height: 44px;
+        display: block;
+    }
+
+    .nav-link:hover,
+    .nav-link:focus {
+        background-color: #d4bfc4;
+        color: #7a3145;
+    }
+
+    .nav-link:active {
+        background-color: #fbfbfb;
+        color: #7a3145;
+    }
+
+    .order-button {
+        background-color: #7a3145;
+        border: none;
+        border-radius: 30px;
+        padding: 16px 32px;
+        min-width: 157px;
+        min-height: 52px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.11;
+        letter-spacing: -0.01em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fbfbfb;
+    }
+
+    .order-button:hover,
+    .order-button:focus {
+        background-color: #d4bfc4;
+        color: #7a3145;
+    }
+
+    .order-button:active {
+        background-color: #fbfbfb;
+        color: #7a3145;
+    }
+
+    .burger-button {
+        display: none;
+    }
+}
