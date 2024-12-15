@@ -4,10 +4,7 @@
     padding: 40px 0;
     width: 100%;
   }
-  .container {
-  }
-  .footer-container {
-  }
+
   .footer-logo-wrapper {
     margin-bottom: 40px;
   }
@@ -22,13 +19,11 @@
     fill: #fbfbfb;
     width: 16px;
     height: 16px;
-    background-color: #fff;
   }
   .footer-logo-icon-text {
     fill: #fbfbfb;
     width: 148px;
     height: 12px;
-    background-color: #fff;
   }
   .footer-desc {
     max-width: 335px;
@@ -48,8 +43,7 @@
     gap: 14px;
     margin-bottom: 40px;
   }
-  .footer-item {
-  }
+
   .footer-link {
     color: #fbfbfb;
 
@@ -61,8 +55,6 @@
     text-transform: uppercase;
   }
 
-  .footer-address {
-  }
   .footer-contacts-list {
     display: flex;
     flex-direction: column;
@@ -100,10 +92,7 @@
     background-color: #7a3145;
     padding: 40px 0;
   }
-  .container {
-  }
-  .footer-container {
-  }
+
   .footer-logo-wrapper {
     margin-bottom: 40px;
   }
@@ -118,13 +107,11 @@
     fill: #fbfbfb;
     width: 16px;
     height: 16px;
-    background-color: #fff;
   }
   .footer-logo-icon-text {
     fill: #fbfbfb;
     width: 148px;
     height: 12px;
-    background-color: #fff;
   }
   .footer-desc {
     width: 335px;
@@ -144,8 +131,7 @@
     gap: 14px;
     margin-bottom: 40px;
   }
-  .footer-item {
-  }
+
   .footer-link {
     color: #fbfbfb;
 
@@ -157,8 +143,6 @@
     text-transform: uppercase;
   }
 
-  .footer-address {
-  }
   .footer-contacts-list {
     display: flex;
     flex-direction: column;
@@ -195,8 +179,7 @@
   .footer {
     padding: 32px 0;
   }
-  .container {
-  }
+
   .footer-container {
     padding: 0 32px;
   }
@@ -234,18 +217,11 @@
     gap: 24px;
     margin-bottom: 64px;
   }
-  .footer-item {
-  }
-  .footer-link {
-  }
 
-  .footer-address {
-  }
   .footer-contacts-list {
     gap: 24px;
   }
-  .footer-contact-item {
-  }
+
   .footer-contact-link {
     font-size: 16px;
 
@@ -266,24 +242,14 @@
   .footer {
     padding: 52px 0;
   }
-  .container {
-    padding: 0 100px;
-  }
+
   .footer-container {
+    padding: 0 100px;
   }
   .footer-box {
     margin-bottom: 124px;
   }
-  .footer-logo-wrapper {
-  }
-  .footer-logo {
-  }
-  .footer-logo-icon {
-  }
-  .footer-logo-icon-text {
-  }
-  .footer-desc {
-  }
+
   .footer-link-wrapper {
     display: flex;
     gap: 121px;
@@ -291,22 +257,5 @@
 
   .footer-list {
     margin-bottom: 0;
-  }
-  .footer-item {
-  }
-  .footer-link {
-  }
-
-  .footer-address {
-  }
-  .footer-contacts-list {
-  }
-  .footer-contact-item {
-  }
-  .footer-contact-link {
-  }
-  .footer-text-wrapper {
-  }
-  .footer-text {
   }
 }
