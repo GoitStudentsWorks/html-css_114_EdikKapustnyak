@@ -39,8 +39,8 @@
   flex-direction: column;
 }
 
-.reviews-item.y,
-.reviews-item.z {
+.reviews-item.tablet,
+.reviews-item.desktop {
   display: none;
 }
 
@@ -94,13 +94,13 @@
   }
 
   .reviews-item,
-  .reviews-item.y {
+  .reviews-item.tablet {
     padding: 20px;
     display: flex;
     width: calc((100% - 24px) / 2);
   }
 
-  .reviews-item.z {
+  .reviews-item.desktop {
     display: none;
   }
 
@@ -112,8 +112,8 @@
 
 @media only screen and (min-width: 1280px) {
   .reviews-item,
-  .reviews-item.y,
-  .reviews-item.z {
+  .reviews-item.tablet,
+  .reviews-item.desktop {
     display: flex;
     width: calc((100% - 48px) / 3);
   }
