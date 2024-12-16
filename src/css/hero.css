@@ -196,7 +196,7 @@
   (min-resolution: 2dppx) {
   .hero-image-wrapper {
     background-image: url(../img/hero_img/hero-image_desk@2x.jpg);
-
+}
   .hero-container {
     padding-top: 232px;
     padding-bottom: 52px;
