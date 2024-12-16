@@ -91,10 +91,21 @@ ul {
     color: #576f35;
 }
   
-.contact-form{
-    display: flex;
-    flex-direction: column; 
-    gap: 16px;
+.contact-form input,
+.contact-form textarea,
+.contact-form .submit-button {
+    display: block;
+    width: 100%;
+    margin-bottom: 16px; 
+}
+
+.contact-form textarea:nth-last-child(2) {
+    margin-bottom: 0;
+}
+
+.contact-form .submit-button {
+    margin-top: 20px;
+    margin-bottom: 0;
 }
 
 .input-name, 
@@ -259,13 +270,11 @@ ul {
             max-width: 640px;
         }
     }  
-
-    .contact-form{
-        display: flex;
-        flex-direction: column; 
-        gap: 24px;
-    }
    
+    .contact-form .submit-button {
+        margin-top: 24px;
+    }
+
     .input-name, 
     .input-email {
         padding: 16px; 
