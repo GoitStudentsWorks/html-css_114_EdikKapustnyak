@@ -116,17 +116,23 @@ ul {
     border: 1px solid #858585; 
     outline: none;
     border-radius: 30px;
-    transition: border-color 0.3s ease;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
   
 .input-email:placeholder-shown {
     border-color: #858585; 
-} 
+}  
+
   
 .input-email:focus{
     border-color: #7a3145; 
 } 
   
+/* .input-email:focus{
+    border-color: #7a3145; 
+    box-shadow: 0 0 5px rgba(122, 49, 69, 0.3);
+}  */
+
 .input-email:focus:valid {
     border-color: #3cbc81; 
 }
@@ -151,8 +157,9 @@ ul {
 
 input:focus,
 textarea:focus{
-    border: 1px solid #7a3145;
-} 
+    border: 1px solid #858585;
+    box-shadow: 0 0 5px rgba(122, 49, 69, 0.3)
+}
 
 .submit-button {
     border-radius: 30px;
