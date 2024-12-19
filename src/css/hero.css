@@ -101,14 +101,15 @@
 @media only screen and (min-width: 1280px) {
   .hero-container {
     display: flex;
-    /* margin: 0 auto;
-    max-width: 1280px; */
+    margin: 0 auto;
+    max-width: 1280px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .hero-content-wrapper {
     padding-top: 232px;
+    padding-right: 38px;
     width: 50%;
   }
 }
@@ -133,7 +134,7 @@
 
 @media only screen and (min-width: 1280px) {
   .hero-title {
-    width: 504px;
+    max-width: 504px;
     margin-bottom: 128px;
   }
 }
