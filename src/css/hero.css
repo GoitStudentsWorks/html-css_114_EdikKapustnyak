@@ -9,19 +9,20 @@
 }
 
 .hero-image-wrapper {
-  background-image: rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2),
+  background-image: linear-gradient(
+      rgba(20, 20, 20, 0.2),
+      rgba(20, 20, 20, 0.2)
+    ),
     url(../img/hero_img/hero-image_mob@1x.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 372px;
-  /* max-width: 375px;
-  margin: 0 auto; */
 }
 
 @media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
   .hero-image-wrapper {
     background-image: url(../img/hero_img/hero-image_mob@2x.jpg);
   }
@@ -52,7 +53,6 @@
   max-width: 335px;
 }
 
-
 /*Tablet*/
 
 @media only screen and (min-width: 768px) {
@@ -64,15 +64,17 @@
 
 @media only screen and (min-width: 768px) {
   .hero-image-wrapper {
-    background-image: rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2),
+    background-image: linear-gradient(
+        rgba(20, 20, 20, 0.2),
+        rgba(20, 20, 20, 0.2)
+      ),
       url(../img/hero_img/hero-image_tab@1x.jpg);
     height: 536px;
-    /* max-width: 768px; */
   }
 
   @media only screen and (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .hero-image-wrapper {
       background-image: url(../img/hero_img/hero-image_tab@2x.jpg);
     }
@@ -95,7 +97,6 @@
   }
 }
 
-
 /*Desktop*/
 
 @media only screen and (min-width: 1280px) {
@@ -116,16 +117,17 @@
 
 @media only screen and (min-width: 1280px) {
   .hero-image-wrapper {
-    background-image: rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2),
-      url(../img/hero_img/hero-image_desk@1x.jpg);
+    background-image: linear-gradient(rgba(20, 20, 20, 0.2),
+          rgba(20, 20, 20, 0.2)),
+        url(../img/hero_img/hero-image_desk@1x.jpg);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     width: 50%;
     height: 796px;
   }
 
   @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .hero-image-wrapper {
       background-image: url(../img/hero_img/hero-image_desk@2x.jpg);
     }
