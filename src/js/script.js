@@ -13,4 +13,9 @@
   function toggleModal() {
     refs.modal.classList.toggle('is-open');
   }
+
+  const menuLinks = document.querySelectorAll(".menu-box-link");
+  menuLinks.forEach((link) => {
+    link.addEventListener("click", toggleMenu);
+  });
 })();
