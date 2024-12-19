@@ -121,11 +121,11 @@ ul {
   
 .input-email:placeholder-shown {
     border-color: #858585; 
-}
+} 
   
-.input-email:focus:placeholder-shown {
-    border-color: #858585; 
-}
+.input-email:focus{
+    border-color: #7a3145; 
+} 
   
 .input-email:focus:valid {
     border-color: #3cbc81; 
@@ -135,9 +135,9 @@ ul {
     border-color: #E74A3B;
 }
   
-.input-email:invalid:placeholder-shown {
+ .input-email:invalid:placeholder-shown {
     border-color: #858585; 
-} 
+}   
 
 .input-comment{
     border: 1px solid #858585;
@@ -148,6 +148,11 @@ ul {
     padding: 14px;
     outline: none;
 }
+
+input:focus,
+textarea:focus{
+    border: 1px solid #7a3145;
+} 
 
 .submit-button {
     border-radius: 30px;
@@ -161,11 +166,6 @@ ul {
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #fbfbfb;
-}
-
-input:focus,
-textarea:focus{
-    outline: none; 
 }
 
 .submit-button:hover,   
