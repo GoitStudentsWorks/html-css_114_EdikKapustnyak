@@ -148,7 +148,7 @@ ul {
     padding: 14px;
     outline: none;
 }
-  
+
 .submit-button {
     border-radius: 30px;
     border: inherit;
@@ -162,11 +162,18 @@ ul {
     text-transform: uppercase;
     color: #fbfbfb;
 }
-  
-.submit-button:hover,   
-.submit-button:active {
-    background-color: #d4bfc4; 
+
+input:focus,
+textarea:focus{
+    outline: none; 
 }
+
+.submit-button:hover,   
+.submit-button:active,
+.submit-button:focus {
+    background-color: #D4BFC4;
+    outline: none;
+}    
 
 @media screen and (min-width: 768px) {
     .flex {
@@ -210,6 +217,10 @@ ul {
     gap: 8px; 
     list-style: none;
 }
+/* .social-list:focus{
+    outline: none; 
+    background-color: #D4BFC4;
+}  */
 
 .social-item{
     font-weight: 600;
